@@ -191,7 +191,7 @@ section.veiculos-destaque {
     padding: 90px 2% 20px 2%;
 }
 
-section.veiculos-destaque .line-titulo {
+.line-titulo {
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
@@ -206,7 +206,7 @@ section.veiculos-destaque .line-titulo {
     background-color: black;
 }
 
-section.veiculos-destaque .line-titulo > h2 {
+.line-titulo h2 {
     position: relative;
     background-color: white;
     display: inline-block;
@@ -356,6 +356,59 @@ section.veiculos-destaque .container {
     font-size: 23px;
 }
 
+section.contato {
+    padding: 80px 2%;
+}
+
+section.contato form {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+section.contato .input-wrapper {
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+section.contato input[type=text] {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+section.contato textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 15px;
+    resize: none;
+}
+
+section.contato input[type=submit] {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #EB2D2D;
+    cursor: pointer;
+    border: none;
+}
+
+section.contato input[type=submit]:hover {
+    background-color: #cc1e1e;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
 
 /* 
 ----------------------------------------------------------
@@ -413,6 +466,10 @@ section.veiculos-destaque .container {
     .half1-wrapper {
         display: inline-block;
         text-align: left;
+    }
+
+    .w50 {
+        width: 100%;
     }
     
 }
