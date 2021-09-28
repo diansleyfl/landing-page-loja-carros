@@ -410,6 +410,40 @@ section.contato input[type=submit]:hover {
     width: 50%;
 }
 
+footer {
+    padding: 40px 2%;
+    background-color: #252525;
+}
+
+footer nav {
+    float: left;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    float: left;
+    font-style: italic;
+    padding: 0 35px;
+    font-size: 19px;
+}
+
+footer nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    float: right;
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+}
+
+
+
 /* 
 ----------------------------------------------------------
 -------------------------FOOTER---------------------------
@@ -470,6 +504,18 @@ section.contato input[type=submit]:hover {
 
     .w50 {
         width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer nav {
+        display: none;
+    }
+
+    footer p {
+        float: none;
     }
     
 }
