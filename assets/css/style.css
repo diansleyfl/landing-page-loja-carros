@@ -455,10 +455,11 @@ section.venda {
 .sidebar {
     float: left;
     width: 30%;
+    padding: 0 1%;
 }
 
 .search-preco {
-    width: 300px;
+    width: 90%;
 }
 
 .search-preco h2 {
@@ -566,6 +567,15 @@ section.venda {
     vertical-align: top;
 }
 
+.vitrine-venda {
+    float: left;
+    width: 70%;
+}
+
+.vitrine-venda .vitrine-destaque {
+    margin-top: 40px;
+}
+
 /* 
 ----------------------------------------------------------
 -------------------------FOOTER---------------------------
@@ -638,6 +648,26 @@ section.venda {
 
     footer p {
         float: none;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .vitrine-venda {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+
+    .search-preco {
+        display: inline-block;
+    }
+
+    .search-ano {
+        display: inline-block;
+        text-align: left;
     }
     
 }
