@@ -416,38 +416,6 @@ section.contato input[type=submit]:hover {
     width: 50%;
 }
 
-footer {
-    padding: 40px 2%;
-    background-color: #252525;
-}
-
-footer nav {
-    float: left;
-}
-
-footer nav ul {
-    list-style-type: none;
-}
-
-footer nav ul li {
-    float: left;
-    font-style: italic;
-    padding: 0 35px;
-    font-size: 19px;
-}
-
-footer nav ul a {
-    color: white;
-    text-decoration: none;
-}
-
-footer p {
-    float: right;
-    color: white;
-    font-size: 19px;
-    font-style: italic;
-}
-
 /* 
 ----------------------------------------------------------
 --------------------- PÁGINA VENDA -----------------------
@@ -709,13 +677,67 @@ section.venda-single {
     width: 200px;
 }
 
+section.sobre {
+    min-height: 90%;
+    padding: 50px 2% 20px 2%;
+}
+
+.sobre .container {
+    max-width: 1000px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img-destaque-sobre {
+    width: 100%;
+    max-width: 840px;
+    padding-top: 60%;
+    margin-top: 20px;
+    background-image: url('../img/carros-antigos.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
 /* 
 ----------------------------------------------------------
 -------------------------FOOTER---------------------------
 ---------------------------------------------------------- 
 */
 
+footer {
+    padding: 40px 2%;
+    background-color: #252525;
+    margin-top: 20px;
+}
 
+footer nav {
+    float: left;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    float: left;
+    font-style: italic;
+    padding: 0 35px;
+    font-size: 19px;
+}
+
+footer nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    float: right;
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+}
 
 /* 
 ----------------------------------------------------------
