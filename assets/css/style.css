@@ -138,6 +138,9 @@ header nav.mobile ul li a{
 ----------------------------------------------------------
 ---------------------PÁGINA INICIAL-----------------------
 ---------------------------------------------------------- 
+----------------------------------------------------------
+------------------------- INDEX --------------------------
+---------------------------------------------------------- 
 */
 
 section.banner {
@@ -443,6 +446,12 @@ footer p {
     font-style: italic;
 }
 
+/* 
+----------------------------------------------------------
+--------------------- PÁGINA VENDA -----------------------
+---------------------------------------------------------- 
+*/
+
 section.venda {
     padding: 90px 0;
     min-height: 90%;
@@ -574,6 +583,71 @@ section.venda {
 
 .vitrine-venda .vitrine-destaque {
     margin-top: 40px;
+}
+
+/* 
+----------------------------------------------------------
+-------------------- PÁGINA VEICULO ----------------------
+---------------------------------------------------------- 
+*/
+
+.venda-single {
+    margin-top: 50px;
+    padding: 0 2%;
+}
+
+.venda-single .container {
+    padding: 50px 0;
+    max-width: 1280px;
+}
+
+.foto-destaque {
+    width: 100%;
+    padding-top: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-galeria {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.nav-galeria-wrapper {
+    width: 200%;
+}
+
+.mini-img {
+    float: left;
+    border: 4px solid white;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(33.3% * (100 / 200) * 0.6);
+    width: calc(33.3% * (100 / 200));
+}
+
+.info-veiculo {
+    float: left;
+    width: 60%;
+}
+
+.descricao-veiculo {
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+
+.descricao-veiculo p {
+    margin-top: 25px;
+    max-width: 400px;
+}
+
+.descricao-veiculo a {
+    margin-top: 25px;
+    width: 200px;
 }
 
 /* 
