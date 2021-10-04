@@ -700,6 +700,43 @@ section.sobre {
     display: inline-block;
 }
 
+.sobre .descricao-sobre {
+    margin-top: 20px;
+}
+
+.descricao-sobre h2 {
+    font-size: 24px;
+}
+
+.descricao-sobre p {
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.descricao-autor {
+    margin-top: 30px;
+}
+
+.img-autor {
+    width: 30%;
+    padding-top: 30%;
+    background-image: url('../img/autor.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+.descricao-texto {
+    margin-top: 30px;
+    float: left;
+    width: 70%;
+    line-height: 30px;
+    padding: 20px;
+    text-align: left;
+}
+
 /* 
 ----------------------------------------------------------
 -------------------------FOOTER---------------------------
@@ -770,6 +807,33 @@ footer p {
         background-position: center;
         height: 70vw;
         min-height: 500px;
+    }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .sobre .descricao-sobre {
+        padding: 3%;
+        text-align: center;
+    }
+    
+    .img-autor {
+        width: 50%;
+        float: none;
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .descricao-texto {
+        float: none;
+        width: 70%;
+        line-height: 30px;
+        margin: 5px 0;
+        padding: 0 3% 20px 3%;
+        text-align: center;
+        display: inline-block;
     }
 
 }
@@ -911,5 +975,8 @@ footer p {
         width: 100%;
     }
 
+    .descricao-texto {
+        width: 100%;
+    }
 
 }
